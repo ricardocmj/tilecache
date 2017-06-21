@@ -478,7 +478,7 @@ class Layer (object):
     ##        (3, 1, 2)
     ############################################################################
     
-    def getCell (self, (minx, miny, maxx, maxy), exact = True):
+    def getCell (self, (minx, miny, maxx, maxy), exact = False):
         """
         Returns x, y, z
 
